@@ -1,0 +1,21 @@
+#Data types
+#CRIBS
+
+Character = "Y"
+real_Float = 3.1
+Integer = 444
+Boolean = False  
+String = "Dada"
+
+#It is possible to do maths with Floats and Integers
+#It is not possible to do mathis with strings or characters
+#example
+
+num1 = "20" #string
+num2 = "31" #string
+total = num1 + num2
+print(total)
+
+#You cannot add strings or characters
+#Instead the add symbol glues them together
+#But we don't call it glue, we call it concatenation
