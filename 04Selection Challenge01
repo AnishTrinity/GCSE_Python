@@ -1,0 +1,7 @@
+num1 = input("Give me one number:")
+num2 = input("Give me another number:")
+
+if num1> num2:
+  print(num2, num1)
+else:
+  print(num1,num2)
