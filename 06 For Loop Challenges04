@@ -1,0 +1,5 @@
+num = int(input("Enter a number between 1 and 12:"))
+table = 1
+for i in range(12):
+  print(num*table)
+  table =table+1
