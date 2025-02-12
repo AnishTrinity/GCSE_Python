@@ -1,0 +1,9 @@
+total = 0
+for i in range(5):
+  
+  num = int(input("Enter a number:"))
+  loop_num = input("Do you want that number included:").lower()
+  if loop_num == "y":
+    num = num+total
+    total = num
+print(num)
