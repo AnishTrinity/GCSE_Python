@@ -1,0 +1,11 @@
+direction = input("Do you want to count up or down? ").lower()
+if direction == "u":
+  top_number = int(input("What is the top number?"))
+  for i in range(1, top_number+1,1):
+    print(i)
+elif direction == "d":
+  bottom_number = int(input("What is the top number?"))
+  for i in range(20,bottom_number,1):
+    print(i)
+else:
+  print("I don't understand")
