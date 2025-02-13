@@ -1,0 +1,9 @@
+num = int(input("Enter a number: "))
+total = num
+y = "y"
+
+while y == "y":
+  num1 = int(input("Enter another number:"))
+  total = total + num1
+  y = input("Do you want to add another number? (y/n)").lower()
+print("The total is {}".format(total))
