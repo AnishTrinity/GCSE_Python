@@ -1,0 +1,3 @@
+if first[0] == "A" or first[0] == "E" or first[0] == "I" or first[0] == "O" or first[0] == "U":
+  first = ""
+print(first)
