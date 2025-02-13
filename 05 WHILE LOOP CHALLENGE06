@@ -1,0 +1,9 @@
+num = int(input("Enter a number: "))
+while num not in range(10,20):
+  if num <10:
+    print("Too low") 
+    num = int(input("Enter a number: "))
+  elif num >20:
+    print("Too high")
+    num = int(input("Enter a number: "))
+print("Thank you")
