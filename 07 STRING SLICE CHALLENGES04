@@ -1,0 +1,8 @@
+
+line = input("Enter the first line of a nursery rhyme: ")
+length = len(line)
+print("This has {} letters in it".format(length))
+start = int(input("Enter a starting number: "))
+end = int(input("Enter an end number: "))
+part = (line[start:end])
+print(part)
