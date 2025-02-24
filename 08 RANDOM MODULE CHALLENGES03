@@ -1,0 +1,15 @@
+import random
+
+list = ["h", "t"]
+coin = random.choices(list)
+
+guess = input("Guess h or t:")
+
+if coin == guess:
+  print("You win")
+else:
+  print("Bad luck")
+  if coin == "h":
+    print("It was heads")
+  else:
+    print("It was tails")
