@@ -1,0 +1,22 @@
+import random
+
+num = random.randint(1,5)
+guess = int(input("Guess a number"))
+
+if guess == num:
+  print("Well done")
+else:
+  if guess > num:
+    print("Too high")
+    guess1 = int(input("Try again"))
+    if guess1 == num:
+      print("Well done")
+    else:
+      print("You lose")
+  else:
+    print("Too low")
+    guess2 = int(input("Try again:"))
+    if guess2 == num:
+      print("Well done")
+    else:
+      print("You lose")
