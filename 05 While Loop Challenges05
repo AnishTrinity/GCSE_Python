@@ -1,0 +1,13 @@
+compum = 50
+num = int(input("Enter a number:"))
+count = 1
+
+while num != compum:
+  if num > compum:
+    print("Too high")
+  else:
+    print("Too low")
+  num = int(input("Have another guess"))
+  count += 1
+
+print("Well done, you took {} attempts".format(count))
