@@ -1,0 +1,11 @@
+import random
+
+score= 0
+
+for i in range(5):
+  num1 = random.randint(1,100)
+  num2 = random.randint(1,100)
+  answer = num1+num2
+  guess = input("What is the answer of {} add {}:".format(num1,num2))
+  if answer == guess:
+    score+=1
