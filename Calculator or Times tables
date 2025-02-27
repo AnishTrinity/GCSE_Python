@@ -1,0 +1,35 @@
+choice = input("Do you want to use the calculator or times table helper:").lower()
+if choice == "calculator":
+  first = int(input("Enter your first number:"))
+  second = int(input("Enter your second number:"))
+  operator = input("Enter your operator:")
+  def multiply():
+    print(first*second)
+
+  def add():
+    print(first+second)
+
+  def minus():
+    if first>second:
+      print(first-second)
+    elif first == second:
+      print(first - second)
+    else:
+      print(second - first)
+
+  def divide():
+    print(round(first/second, 3))
+  if operator == "+":
+    add()
+  elif operator == "/":
+    divide()
+  elif operator == "*":
+    multiply()
+  elif operator == "-":
+    minus()
+elif choice == "times table helper":
+  times_table = int(input("What times table would you like:"))
+  number = 1
+  for i in range(12):
+    print(times_table*number)
+    number+=1
