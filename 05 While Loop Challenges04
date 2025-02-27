@@ -1,0 +1,12 @@
+control = True
+count = 0
+
+while control == True:
+  question = input("Who do you want to be invited to your party")
+  print("{} has now been invited".format(question))
+  count +=1
+  choice = input("Do you want to invite somebody else?").lower()
+  if choice == "n":
+    control = False
+
+print(count)
