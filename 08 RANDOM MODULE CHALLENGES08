@@ -9,3 +9,4 @@ for i in range(5):
   guess = input("What is the answer of {} add {}:".format(num1,num2))
   if answer == guess:
     score+=1
+print(score)
