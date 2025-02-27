@@ -1,0 +1,10 @@
+sentry = True
+count = 0
+
+while sentry == True:
+  lastname = input("What is your last name:")
+  print(lastname[0:3]+str(count))
+  count +=1
+  question = input("Do you want another person:").lower()
+  if question == "n":
+    sentry = False
