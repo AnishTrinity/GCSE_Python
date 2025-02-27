@@ -1,0 +1,25 @@
+def multiply():
+  print(first*second)
+
+def add():
+  print(first+second)
+
+def minus():
+  if first>second:
+    print(first-second)
+  elif first == second:
+    print(first - second)
+  else:
+    print(second - first)
+
+def divide():
+  print(round(first/second, 3))
+
+if operator == "+":
+  add()
+elif operator == "/":
+  divide()
+elif operator == "*":
+  multiply()
+elif operator == "-":
+  minus()
