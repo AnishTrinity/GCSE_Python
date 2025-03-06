@@ -1,0 +1,10 @@
+def call_of_duty():
+  a = "Domination"
+  b = "Team Deathmatch"
+  c = "Headquarters"
+  print("Option one is {}".format(a))
+  print("Option two is {}".format(b))
+  print("Option three is {}".format(c))
+
+call_of_duty()
+question = int(input("What number do you want?"))
