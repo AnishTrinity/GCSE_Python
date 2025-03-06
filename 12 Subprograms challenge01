@@ -1,0 +1,4 @@
+def Fifa_47():
+  print("Career Mode \n Tournament Mode \n Online Seasons")
+
+Fifa_47()
