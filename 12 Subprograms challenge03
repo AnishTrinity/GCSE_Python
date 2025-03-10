@@ -1,0 +1,22 @@
+def one_player():
+  print("1 player selected")
+
+def two_player():
+  print("2 player selected")
+
+def Online():
+  print("Online selected")
+
+def Exit():
+  print("exiting...")
+
+choice = int(input("Choose what you want to do: 1, 2, 3 or 4"))
+
+if choice==1:
+  one_player()
+elif choice == 2:
+  two_player()
+elif choice == 3:
+  Online()
+elif choice == 4:
+  Exit()
