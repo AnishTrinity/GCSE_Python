@@ -1,0 +1,37 @@
+import sys
+def Creative():
+  print("Creative selected")
+
+def Survival():
+  print("Survival selected")
+
+def Hardcore():
+  print("Hardcore selected")
+
+def Adventure():
+  print("Adventure selected")
+
+def Exit():
+  print("exiting...")
+  sys.exit()
+
+
+control = True
+while control == True:
+  choice = int(input("Choose option 1, 2, 3, 4 or 5:"))
+  if choice == 1:
+    Creative()
+    sys.exit()
+  elif choice == 2:
+    Survival()
+    sys.exit()
+  elif choice ==3:
+    Hardcore()
+    sys.exit()
+  elif choice == 4:
+    Adventure()
+    sys.exit()
+  elif choice == 5:
+    Exit()
+  elif choice >= 6:
+    print("Invalid choice")
