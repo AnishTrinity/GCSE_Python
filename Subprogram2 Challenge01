@@ -1,0 +1,21 @@
+import sys
+choice = int(input("Choose 0 to exit or 1 for timestables:"))
+def exit():
+  print("Bye")
+  sys.exit()
+
+def timetables():
+  print("You've chosen timetables")
+
+def answer():
+  num = int(input("Enter a number between 1 and 12:"))
+  table = 1
+  for i in range(12):
+    print(num*table)
+    table+=1
+
+if choice == 0:
+  exit()
+elif choice == 1:
+  timetables()
+  answer()
