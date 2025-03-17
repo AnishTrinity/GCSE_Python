@@ -1,0 +1,35 @@
+import sys
+def think_big():
+  print("Think big chosen")
+
+def think_bigger():
+  print("think bigger chosen")
+
+def winning():
+  print("Winning chosen")
+
+def winner():
+  print("Winner chosen")
+
+def Exit():
+  print("Exit is chosen")
+
+control = True
+while control == True:
+  choice = int(input("Choose 1,2,3,4 or 5:"))
+  if choice >= 6:
+    print("Invalid choice! Enter another option")
+  elif choice < 6:
+    if choice ==1:
+      think_big()
+    elif choice == 2:
+      think_bigger()
+    elif choice ==3:
+      winning()
+    elif choice == 4:
+      winner()
+    elif choice == 5:
+      Exit()
+      control = False
+print("bye")
+sys.exit()
