@@ -1,0 +1,26 @@
+import sys
+
+choice = int(input("Choose 0 to exit, 1 for timestables, and 2 for adding"))
+
+def exit():
+  print("Bye")
+  sys.exit()
+
+def timestables():
+  num = int(input("Enter a number between 1 and 12:"))
+  table = 1
+  for i in range(12):
+    print(num*table)
+    table+=1
+
+def add():
+  number1 = int(input("Enter a number:"))
+  number2 = int(input("Enter another number:"))
+  print(number1+number2)
+
+if choice == 0:
+  exit()
+elif choice == 1:
+  timestables()
+elif choice == 2:
+  add()
