@@ -1,0 +1,11 @@
+import sys
+cars = []
+sentry = True
+while sentry == True:
+    a = input("Input a car brand or press x to exit:")
+    if a == "x":
+        print("Exiting")
+        break
+    else:
+        cars.append(a)
+print(cars)
