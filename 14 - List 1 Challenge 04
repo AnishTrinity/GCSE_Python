@@ -1,0 +1,13 @@
+titles = ["Suits", "Money Heist", "Lucifer", "The Rookie"]
+for i in titles:
+    print(i)
+
+
+
+series = input("Enter another series")
+position = int(input("Where do you want to insert it?"))
+position = position - 1  
+titles.insert(position, series)
+
+for i in titles:
+    print(i)
