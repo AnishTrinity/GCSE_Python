@@ -1,0 +1,14 @@
+q = "y"
+list = []
+names= list.append(input("Enter a name"))
+names= list.append(input("Enter a name"))
+names= list.append(input("Enter a name"))
+
+while q != "no":
+    a = input("Do you want to add another, ?")
+    if a == "yes":
+        list.append(input("Enter the name:"))
+    elif a == "no":
+        break
+    
+print(len(list))
