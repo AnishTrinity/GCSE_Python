@@ -1,0 +1,5 @@
+choice = int(input("Choose the range"))
+choice1 = int(input("Choose the range"))
+
+EmptyArray = [["a" for column in range(choice)]for row in range(choice1)]
+print(EmptyArray)
