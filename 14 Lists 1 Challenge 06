@@ -1,0 +1,10 @@
+nums = []
+nums.append(input("Enter a number"))
+nums.append(input("Enter a number"))
+nums.append(input("Enter a number"))
+
+choice = input("Do you want to save the last number?")
+if choice == "no":
+    nums.pop()
+
+print(nums)
