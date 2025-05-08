@@ -1,0 +1,11 @@
+food= []
+choice1 = food.append(input("Enter a food"))
+choice2= food.append(input("Enter a food"))
+choice3 = food.append(input("Enter a food"))
+choice4 = food.append(input("Enter a food"))
+print(food)
+
+delete = int(input("Which food do you want to delete?"))
+delete = delete - 1                 
+food.remove(food[delete])
+print(food)
