@@ -1,0 +1,10 @@
+choice = int(input("Choose the range:"))
+choice1 = int(input("Choose the range:"))
+choice2 = int(input("Choose any indexed value:"))
+choice3 = int(input("Choose any indexed value:"))
+choice4 = int(input("What do you want to replace it with"))
+
+
+EmptyArray = [[0 for column in range(choice)]for row in range(choice1)]
+EmptyArray[choice2][choice3] = choice4
+print(EmptyArray)
