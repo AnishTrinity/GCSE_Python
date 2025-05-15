@@ -1,0 +1,47 @@
+import random
+player1 = input("Enter your details:")
+player2= input("Enter your details:")
+
+if len(player1) != 5:
+    print("Wrong password!")
+    break
+
+score1 = 0
+score2 = 0
+for i in range(5):
+    dice1_1 = random.randint(1,6)
+    dice1_2 = random.randint(1,6)
+    dice2_1 = random.randint(1,6)
+    dice2_2= random.randint(1,6)
+    score1 = dice1_1 + dice1_2
+    score2 = dice2_1 + dice2_2
+    if score1 < 0:
+        score = 0
+    elif score2 < 0:
+        score2 = 0
+    if (dice1_1 + dice1_2) % 2 == 0:
+        score1 = score1+10
+    elif (dice2_1+dice2_2) % 2 == 0:
+        score2 = score2 + 10
+    elif (dice2_1+dice2_2) % 2 == 1:
+        score2 = score2 -5
+    elif (dice1_1+dice1_2) % 2 == 1:
+        score1 = score2 -5
+        
+    if dice1_1 == dice1_2:
+        
+        
+        
+    if dice1_1 == dice1_2:
+        dice1_3= random.randint(1,6)
+        score1 = score1 + dice1_3
+    elif dice2_2 = dice2_1:
+        dice2_3 = random.randint(1,6)
+        score2 = score2 + dice2_3
+if score1 > score2:
+    print("Player 1 is the winner")
+elif score2> score1:
+    print("Player 2 is the winner")
+    
+if score1 == score2:
+    while score1  
