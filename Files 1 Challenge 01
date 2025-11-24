@@ -1,0 +1,8 @@
+new = open("numbers.txt", "w")
+num = "0"
+new.write("0")
+new.write("1")
+new.write("2")
+new.write("3")
+new.write("4")
+new.close()
