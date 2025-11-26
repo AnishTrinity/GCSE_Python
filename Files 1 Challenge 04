@@ -1,0 +1,8 @@
+file = open("names.txt", "r")
+
+#print(file.readlines())
+line = 0
+for i in range(5):
+    print(file.readlines(line))
+    line = line+1
+file.close()
