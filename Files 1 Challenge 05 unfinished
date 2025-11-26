@@ -1,1 +1,9 @@
+file = open("names.txt", "r")
+
+print(file.read())
+open("names.txt", "a")
+user = input("Enter a new name:")
+file.write(user)
+print(file.read())
+file.close()
 
