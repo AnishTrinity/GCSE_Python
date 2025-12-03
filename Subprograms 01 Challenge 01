@@ -1,0 +1,4 @@
+def menu():
+    print("Options are: \n Tournament mode \n Career Mode \n Online Seasons")
+
+menu()
