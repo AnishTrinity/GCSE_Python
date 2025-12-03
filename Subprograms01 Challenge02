@@ -1,0 +1,5 @@
+def menu():
+    print("The options are: \n Domination \n Team Deathmatch \n Headquarters")
+    choice = int(input("Choose 1, 2 or 3:"))
+
+menu()
