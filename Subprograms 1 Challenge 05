@@ -1,0 +1,47 @@
+def menu():
+    print("The options are: \n 1) Think big \n 2) think bigger \n 3) winning \n 4) winner \n 5) Exit")
+
+def leave():
+    print("Exit chosen")
+    exit()
+
+def winner():
+    print("Winner chosen")
+    
+def winning():
+    print("Winning chosen")
+
+def think_bigger():
+    print("Think bigger chosen")
+
+def think_big():
+    print("Think big chosen")
+
+
+menu()
+
+control = True
+
+while control == True:
+    choice = int(input("Choose your choice by writing its corresponding number:"))
+    if choice >= 6:
+        print("Invalid choice!")
+    if choice == 5:
+        leave()
+        control = False
+    if choice == 4:
+        winner()
+        control = False
+    if choice == 3:
+        winning()
+        control = False
+    if choice == 2:
+        think_bigger()
+        control = False
+    if choice == 1:
+        think_big()
+        control = False
+        
+        
+        
+        
