@@ -1,0 +1,26 @@
+def menu():
+    print("The options are: \n 1) Creative \n 2) Survival \n 3) Hardcpre \n 4) Adventure \n 5) Exit")
+    
+menu()
+control = True
+
+
+while control == True:
+    choice = int(input("Choose a choice with the corresponding number:"))
+    if choice == 1:
+        print("Creative selected")
+        control = False
+    if choice == 2:
+        print("Survival selected")
+        control = False
+    if choice == 3:
+        print("Hardcore selected")
+        control = False
+    if choice == 4:
+        print("Adventure selected")
+        control = False
+    if choice == 5:
+        print("Exiting...")
+        exit()
+    elif choice >= 6:
+        print("Invalid choice")
