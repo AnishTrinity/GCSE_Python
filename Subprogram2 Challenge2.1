@@ -1,0 +1,30 @@
+def menu():
+    print("The options are \n 0 to exit \n 1 for timetables \n 2 for adding \n 3 for multiplication")
+    choice = int(input("Select your choice to the corresponding number:"))
+    if choice == 0:
+        print("Bye")
+        exit()
+    elif choice == 1:
+        num = int(input("Choose a number between 1 and 12:"))
+        for i in range(13):
+            print(num*i)
+            i = i+1
+    elif choice == 2:
+        addition()
+    elif choice == 3:
+        multiplication()
+        
+        
+
+def addition():
+    num1 = int(input("Choose a number"))
+    num2 = int(input("Choose another number"))
+    print(num1 + num2)
+def multiplication():
+    multiply1 = int(input("Choose a number:"))
+    multiply2 = int(input("Choose a number:"))
+    print(multiply2*multiply1)
+
+while True:
+    menu()
+    
